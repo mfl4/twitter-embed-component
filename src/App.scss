@@ -1,0 +1,15 @@
+.title {
+    color: red ;
+
+    &:hover {
+        color: blue;
+    }
+}
+
+.container {
+    background-color: green;
+    
+    .paragraph {
+        color: yellow;
+    }
+}
